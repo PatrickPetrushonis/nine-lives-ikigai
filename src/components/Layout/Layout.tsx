@@ -19,7 +19,7 @@ const Layout = ({ children, pagename = 'Home' }) => {
 
   useEffect(() => {
     // Set page title
-    document.title = `PETLIA - ${pagename}`;
+    document.title = `Nine Lives Ikigai - ${pagename}`;
   }, [pagename]);
 
   return (
