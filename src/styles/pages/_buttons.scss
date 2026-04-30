@@ -1,7 +1,8 @@
 @use '../utilities' as *;
 
 .button {
-    color: color(gray, light);
+    box-shadow: 2px 2px 4px 0px rgba(color(gray, jet), 0.8);
+    color: color(secondary, light);
     display: inline-block;
     font-size: 16px;
     line-height: 16px;
@@ -13,7 +14,9 @@
     transition: all 0.3s ease-out;
 
     &:hover { 
-        background-color: color(primary, mild);
+        border-color: color(gray, light);
+        box-shadow: none;
+        color: color(gray, light);
         text-decoration: none;
     }
 

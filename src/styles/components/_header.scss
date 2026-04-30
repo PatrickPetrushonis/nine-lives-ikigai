@@ -9,8 +9,11 @@
   z-index: $header-container;
   opacity: 0;
   
+  color: color(secondary, light);
   background-color: color(primary, dark);
-  border-bottom: 1px solid color(primary, mid);
+  border-bottom: 2px solid color(secondary, dark);
+  box-shadow: 0px 2px 8px 0px rgba(color(gray, jet), 0.8);
+
   transition: all 0.3s ease-out;
 
   &.fixed {
@@ -21,7 +24,8 @@
   .button {
     margin: 11px 0;
     border: none;
-    border-radius: 0;
+    border: 2px solid color(secondary, dark);
+    border-radius: 30px;
     font-weight: 700;
   }
 }
