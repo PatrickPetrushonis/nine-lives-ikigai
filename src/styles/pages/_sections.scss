@@ -24,14 +24,17 @@
 .section__content {
   margin: 0 auto;
   max-width: $large-screen;
-  border: 6px solid color(secondary, dark);
-  border-radius: 30px;
-  box-shadow: 2px 2px 4px 0px rgba(color(gray, jet), 0.8);
   padding: 11px 22px 11px;
 
   @include breakpoint($small-screen) { 
     padding: 22px 22px 44px;
   }
+}
+
+.section__content--construction {
+  border: 6px solid color(secondary, dark);
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0px rgba(color(gray, jet), 0.5);
 }
 
 .section__title {

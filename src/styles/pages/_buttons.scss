@@ -1,14 +1,17 @@
 @use '../utilities' as *;
 
 .button {
-    box-shadow: 2px 2px 4px 0px rgba(color(gray, jet), 0.8);
-    color: color(secondary, light);
     display: inline-block;
-    font-size: 16px;
-    line-height: 16px;
     margin: 22px 0;
     min-width: 80px;
     padding: 11px;
+
+    border: 2px solid color(secondary, dark);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0px rgba(color(gray, jet), 0.8);
+    color: color(secondary, light);
+    font-size: 16px;
+    line-height: 16px;
     text-decoration: none;
     text-align: center;
     transition: all 0.3s ease-out;

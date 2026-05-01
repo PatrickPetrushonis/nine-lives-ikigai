@@ -5,12 +5,12 @@ const Home = ({ data }) => {
     <>
       <div className="content flex-content flex--center">
         <div className="section__container">
-          <div className="section__content">
-            <h1 className="section__title" id="section-about">Under Construction</h1>
-              <div className="flex__small--12 flex__large--12 center">
-                <p>
-                  Exciting updates coming soon!
-                </p>
+          <div className="section__content section__content--construction center">
+            <div className="flex__small--12 flex__large--12">
+              <h1 className="section__title" id="section-construction">Under Construction</h1>
+              <p>
+                Exciting updates coming soon!
+              </p>
             </div>
           </div>
         </div>
